@@ -130,7 +130,7 @@ if not "%Path_PTB%"=="" (
     tasklist /fi "imagename eq DiscordPTB.exe" 2>nul | find /i "DiscordPTB.exe" >nul
     if !errorlevel! equ 0 ( taskkill /f /im DiscordPTB.exe >nul 2>&1 & start "" "%Update_PTB%" --processStart DiscordPTB.exe & echo [+] Discord PTB restarted. ) else ( echo [-] Discord PTB is not running, skip restart. )
 )
-if test not "%Path_Canary%"=="" (
+if not "%Path_Canary%"=="" (
     tasklist /fi "imagename eq DiscordCanary.exe" 2>nul | find /i "DiscordCanary.exe" >nul
     if !errorlevel! equ 0 ( taskkill /f /im DiscordCanary.exe >nul 2>&1 & start "" "%Update_Canary%" --processStart DiscordCanary.exe & echo [+] Discord Canary restarted. ) else ( echo [-] Discord Canary is not running, skip restart. )
 )

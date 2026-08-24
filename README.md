@@ -11,7 +11,7 @@ Perfect for laptop users looking to save battery life, or gamers wanting to prev
 - **No GUI Hassle**: Skip manual clicking through Windows Settings > System > Display > Graphics.
 
 ## 🚀 How to Use
-1. **Download** the [script](https://github.com/crystalglassesman/Discord-iGPU/releases/download/v1.0/discordigpu.bat) from this repository.
+1. **Download** the [script](https://github.com/crystalglassesman/Discord-iGPU/releases/latest) from this repository.
 2. **Right-click** the file and select **Run as Administrator** (required to modify registry entries).
 3. Select your preferred option (`1`, `2`, `3`, or `A` for All).
 4. Press `Y` to automatically restart Discord and apply changes immediately, or `N` to restart manually later.
